@@ -42,8 +42,8 @@ li {
 .header-menu img {
     display: flex;
     justify-content: flex-start; /* Alinha à esquerda */
-    width: 85%; /* Largura */
-    height: 42px; /* Altura */
+    width: 50%; /* Largura */
+    height: 38px; /* Altura */
   }
   
 
@@ -101,11 +101,6 @@ centro do browser. O container é invisível. */
   height: 45px;
 }
 
-.profissao{
-  color: #a899e8;
-  height: 60PX;
-}
-
 .texto-sobre {
   font-size: 20px;
   line-height: 32px; /*Espaçamento entre as linhas*/
@@ -119,7 +114,7 @@ centro do browser. O container é invisível. */
 }
 
 .topico-principal {
-  font-size: 30px;
+  font-size: 28px;
   color: #253260;
 }
 
@@ -153,7 +148,7 @@ centro do browser. O container é invisível. */
 }
 
 .topico-secundario {
-    font-size: 30px;
+    font-size: 28px;
     color: #253260;
   }
 .rodape{

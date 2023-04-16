@@ -10,6 +10,7 @@
   <link rel="shortcut icon" href="./img/icon.png">
   <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
   <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+  <script src="type.js"></script>
 </head>
 
 <body>
@@ -33,12 +34,23 @@
           <img src="img/icon.png">
         </div>
         <div>
+
           <h1 class="nome-completo">Larissa</h1>
-          <h2 class="profissao">Desenvolvedora em formação</h2>
+
+          <h2 id="frase-digitada" style="height: 1.5em; width: 30ch;"></h2>
+            <script>
+              const frase = "Desenvolvedora em formação.";
+              const elemento = document.getElementById("frase-digitada");
+              digitarFrase(frase, elemento, true);
+            </script>
+
         </div>
         <div class="texto-sobre">
           <p>
-            Hi there, bem-vindo à minha página pessoal. [espaço para texto]
+            Hi there, bem-vindo à minha página pessoal. 
+            Sou discente em IBM e uma artista ainda informação, que diariamente flerta com o front-end. 
+            Aqui será a casa de futuros projetos e porta de entrada 
+            para novos :)
           </p>
         </div>
       </article>
@@ -54,10 +66,13 @@
         <div class="lista-item">
           <ul>
             <li>
-              <p class="lista-titulo">Informática Biomédica</p>
+              <p class="lista-titulo">Bacharelado em Informática Biomédica</p>
               <a href="https://web.inf.ufpr.br/infobiomedica/" target="_blank" class="lista-local">UFPR</a>
               <p class="lista-descricao">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
+                A Informática Biomédica é uma área que combina tecnologia da informação com medicina, 
+                visando melhorar os cuidados de saúde. Os profissionais desenvolvem soluções tecnológicas para 
+                resolver problemas complexos em saúde, trabalhando com equipes multidisciplinares. 
+      
               </p>
             </li>
 
@@ -65,7 +80,17 @@
               <p class="lista-titulo">Ciclo formativo</p>
               <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab Olabi</a>
               <p class="lista-descricao">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
+                O PretaLab é um projeto brasileiro que tem como objetivo capacitar e incentivar 
+                mulheres negras a ingressarem e se destacarem no mercado de tecnologia. 
+              </p>
+              <li>
+              <p class="lista-titulo">Bacharelado em Artes Visuais</p>
+              <a href="https://www.uninter.com/graduacao-ead/curso-artes-visuais/" target="_blank" class="lista-local">UNINTER</a>
+              <p class="lista-descricao">
+                O bacharelado em Artes Visuais é um curso superior que oferece uma formação ampla em técnicas de desenho, 
+                pintura, escultura, vídeo, instalação e performance, além de disciplinas teóricas como história da arte e filosofia. 
+                Ao final do curso, os graduados podem atuar em diversas áreas, como galerias de arte, museus, 
+                produção audiovisual, cenografia e design gráfico, além de seguir carreira como artistas plásticos.
               </p>
             </li>
           </ul>
@@ -84,13 +109,19 @@
           <ul>
             <li>
               <p class="lista-titulo">- Desenvolvimento web</p>
-            </li>
-            <p class="lista-titulo">- Desenvolvimento web</p>
             <li>
-              <p>Quem Coda BR</p>
-              <p>Pretalab</p>
-              <a href="https://www.pretalab.com/report-quem-coda" target="_blank">Quem coda br</a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
+              <p class="lista-titulo">- Processamento de Imagens Médicas</p>
+            <li>
+              <p class="lista-titulo">- Ciência de dados</p>
+            <li>
+              <p class="lista-titulo">- Circuitos Digitais</p>
+            <li>
+              <p class="lista-titulo">- Bioinformática</p>
+            <li>
+              <p class="lista-titulo">- Inteligência artificial</p>
+            <li>
+              <p class="lista-titulo">- Análise de dados genômicos</p>
+            <li>
             </li>
           </ul>
         </div>
@@ -103,7 +134,7 @@
     <div class="container">
       <ul id="contato" class="lista-rodape">
         <li><i class="fas fa-envelope-square estilo-icone"></i>desbessel.larissa@gmail.com</li>
-        <li href=""><i class="fab fa-linkedin estilo-icone"></i>amanda-silva</li>
+        <li href=""><i class="fab fa-linkedin estilo-icone"></i>larissa-desbessel</li>
         <li href=""><i class="fab fa-github-square estilo-icone"></i>arivenabili42</li>
       </ul>
     </div>
